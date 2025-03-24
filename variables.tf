@@ -23,7 +23,7 @@ variable "allow_all" {
 }
 
 variable "zone_id" {
-  default = Z0285612191R8C1OBNW9L
+  default = "Z0285612191R8C1OBNW9L"
 }
 
 variable "zone_name" {
