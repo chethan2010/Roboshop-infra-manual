@@ -2,13 +2,13 @@ variable "instances" {
     type = map
     default ={  
         mongodb="t3.small"
-        redis="t3.micro"
+        redis="t2.micro"
         mysql="t3.small"
         rabbitmq="t2.micro"
         catalouge="t2.micro"
         user="t2.micro"
         cart="t2.micro"
-        shipping="t3.micro"
+        shipping="t2.micro"
         payment="t2.micro"
         dispatch="t2.micro"
         fronend="t2.micro"
