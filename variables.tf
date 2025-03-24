@@ -9,9 +9,9 @@ variable "instances" {
         user="t3.micro"
         cart="t3.micro"
         shipping="t3.micro"
-        payment="t3.micro"
-        dispatch="t3.micro"
-        fronend="t3.micro"
+        payment="t2.micro"
+        dispatch="t2.micro"
+        fronend="t2.micro"
 
     }
 }
@@ -23,7 +23,7 @@ variable "allow_all" {
 }
 
 variable "zone_id" {
-  default = Z0285612191R8C1OBNW9L
+  default = "Z0285612191R8C1OBNW9L"
 }
 
 variable "zone_name" {
